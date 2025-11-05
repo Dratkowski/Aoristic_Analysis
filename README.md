@@ -21,6 +21,26 @@ This tool autmoates this process.
 
 Follow these steps for simple install. (Python requiered)
 
-1) Create a venv
+Create a venv
 
-   python -m venv venv
+      python -m venv venv
+
+Activate the venv
+
+      venv\Scripts\activate
+
+Install dependencies (individually or with requirements.txt)
+
+      pip install -r requirements.txt 
+
+   Or
+      
+      pip install pandas
+      pip install numpy
+      pip install matplotlib
+      pip install seaborn
+      pip install openpyxl
+
+Run the Python script
+
+      aoristic_analysis2.0_with_weighted_analysis.py
