@@ -44,3 +44,9 @@ Install dependencies (individually or with requirements.txt)
 Run the Python script
 
       aoristic_analysis2.0_with_weighted_analysis.py
+
+If your data set has a pre-existing wieght select the "Use Weighted Aoristic (Sum of selected colum). This will sum the values of the selected column for the day of week/time of day.
+
+Filters: the GUI will auto select the column headers and column values as filters. select the filters to include or exclude within in the analysis. 
+
+Output: a new folder will be created on the user's desktop with all the files. 
